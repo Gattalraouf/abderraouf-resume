@@ -48,7 +48,6 @@ a.navbar-item:hover{
   margin-right: 8%;
 }
 
-
 /*------------- The Title Text------------*/
 .Text{
   flex-grow: 6;
@@ -100,7 +99,7 @@ a.navbar-item:hover{
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  align-self: flex-end;
+  align-self: flex-start;
   margin-bottom: 3%; 
   margin-left: 1%;
 }
@@ -112,7 +111,7 @@ a.navbar-item:hover{
 .Social-Media-Button{
   opacity: 0.5;
   margin: 10%;
-  width: 2em;
+  width: 2.5vw;
   margin-bottom: 1.2em;
 }
 
@@ -126,3 +125,81 @@ a.navbar-item:hover{
   font-size: 2vw !important;
 }
 
+
+/*--------Phone version --------- */
+
+
+@media (max-width:629px) {
+  img.App-logo {
+    display: none;
+  }
+
+  #Welcoming{
+    font-size: 4vw !important;
+  }
+  
+  #MyName{
+    font-size: 6vw !important;
+  }
+  
+  #MyProfession{
+    font-size: 6vw !important;
+  }
+
+  .Text{
+    flex-grow: 9;
+    align-self: center;
+    margin-left:0%; 
+    min-width: 85vw;
+    margin-top: 0%;
+  }
+
+  .Social-Media-Button{
+    margin: 0%;
+    margin-left: 0.4em;
+    width: 4vw;
+    margin-bottom: 0.6em;
+  }
+
+  .is-large{
+    font-size: 4vw !important;
+  }
+
+}
+
+/*------------tablettes version -----------*/
+
+@media (max-width:1024px) {
+
+  #Welcoming{
+    font-size: 2.5vw !important;
+  }
+  
+  #MyName{
+    font-size: 4vw !important;
+  }
+  
+  #MyProfession{
+    font-size: 4vw !important;
+  }
+
+  .Text{
+    flex-grow: 6;
+    align-self: center;
+    margin-left:0%; 
+    min-width: 57vw;
+    margin-top: 0%;
+  }
+
+  .Social-Media-Button{
+    margin: 0%;
+    margin-left: 0.4em;
+    width: 4vw;
+    margin-bottom: 0.6em;
+  }
+
+  .is-large{
+    font-size: 3vw !important;
+  }
+
+}
