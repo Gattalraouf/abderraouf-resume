@@ -1,17 +1,32 @@
 
 
 /*-----------------Main Screen------------*/
-.App-header {
+.App {
   background-color: #f2f2f2;
-  max-height: 100vh;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-body{
+  flex-grow: 9;
   display: flex;
   flex-direction: row;
 }
 
+.navbar{
+  flex-grow: 1;
+  display: flex;
+  background-color: transparent !important;
+}
+
+.navbar-end{
+  align-self: center;
+}
+
 /*-------------The main picture-----------*/
 .App-logo {
-  height: 70vmin;
+  height: 60vmin;
   flex-grow: 3;
   align-self: center;
   margin-right: 8%;
@@ -22,29 +37,46 @@
 .Text{
   flex-grow: 6;
   align-self: center;
-  margin-left:10%; 
+  margin-left:8%; 
+  min-width: 41vw;
   font-family: 'Roboto', sans-serif;
   color: #3f3d56;
   margin-top: 10%;
 }
 
 #Welcoming{
-  font-size: 2em;
+  font-size: 2vw;
   margin-block-end: 0%;
   margin-block-start: 0%;
 }
 
 #MyName{
-  font-size: 3em;
+  font-size: 3vw;
   margin-block-end: 0%;
   margin-block-start: 0%;
 }
 
 #MyProfession{
-  font-size: 3em;
+  font-size: 3vw;
   font-weight: bold;
   margin-block-end: 5%;
   margin-block-start: 0%;
+}
+
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 /*---------------Social Media Buttons ---------------*/
@@ -71,3 +103,10 @@
 /*--------------Adding Product Sans font----------*/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:200');
+
+
+/*-------------large button text size-----------*/
+.is-large{
+  font-size: 2vw !important;
+}
+

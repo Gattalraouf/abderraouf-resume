@@ -9,6 +9,7 @@
     "npm-run-all": "^4.1.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-rotating-text": "^1.4.1",
     "react-scripts": "3.0.1"
   },
   "scripts": {
