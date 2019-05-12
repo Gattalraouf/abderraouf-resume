@@ -30,25 +30,19 @@ class App extends Component {
     const MyProfession = ['Software Engineering Student', 'Software Developer', 'GitHub Campus Expert', 'GDG Algiers Co-Organizer'];
     return (
       <div className="App">
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-          <div class="navbar-brand">
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
-          </div>
 
+        <nav class="navbar" role="navigation" aria-label="main navigation">
           <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-end">
-              <a class="button is-text">Home</a>
-              <a class="button is-text">About</a>
-              <a class="button is-text">Projects</a>
-              <a class="button is-text">Articles</a>
-              <a class="button is-text">Talks</a>
+              <a class="navbar-item is-active">Home</a>
+              <a class="navbar-item">About Me</a>
+              <a class="navbar-item">My Projects</a>
+              <a class="navbar-item">My Articles</a>
+              <a class="navbar-item">My Talks</a>
             </div>
           </div>
         </nav>
+
         <header className="App-body">
           <div className="SocialMedia">
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/Gattalraouf">

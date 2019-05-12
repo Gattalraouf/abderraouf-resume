@@ -17,7 +17,23 @@
 .navbar{
   flex-grow: 1;
   display: flex;
+  align-self: center;
   background-color: transparent !important;
+}
+
+a.navbar-item{
+  opacity: 0.5;
+  font-size: 1.5vw;
+  color: #3f3d56 !important;
+}
+.is-active{
+  opacity: 1 !important;
+  text-decoration: underline;
+}
+a.navbar-item:hover{
+  background-color: transparent;
+  opacity: 1;
+  text-decoration: underline;
 }
 
 .navbar-end{
