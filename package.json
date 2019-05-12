@@ -5,6 +5,7 @@
   "dependencies": {
     "bulma": "^0.7.4",
     "bulma-extensions": "^6.2.5",
+    "gh-pages": "^2.0.1",
     "node-sass-chokidar": "^1.3.4",
     "npm-run-all": "^4.1.5",
     "react": "^16.8.6",
@@ -20,7 +21,9 @@
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,5 +39,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://github.com/Gattalraouf/abderraouf-resume"
 }
