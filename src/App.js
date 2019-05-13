@@ -11,7 +11,11 @@ class App extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { open: false };
+    this.clickHamburger = this.clickHamburger.bind(this);
+    this.state = {
+      open: false,
+      active: false
+    };
   }
 
   handleEvent = event => {
@@ -25,6 +29,11 @@ class App extends Component {
     });
   }
 
+  clickHamburger() {
+    const currentState = this.state.active;
+    this.setState({ active: !currentState });
+  }
+
   render() {
     var ReactRotatingText = require('react-rotating-text');
     const MyProfession = ['Software Engineering Student', 'Software Developer', 'GitHub Campus Expert', 'GDG Algiers Co-Organizer'];
@@ -32,9 +41,16 @@ class App extends Component {
       <div className="App">
 
         <nav class="navbar" role="navigation" aria-label="main navigation">
-          <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-end">
-              <a class="navbar-item is-active">Home</a>
+          <div class="navbar-brand">
+            <a role="button" onClick={this.clickHamburger} className={this.state.active ? 'is-active navbar-burger burger' : 'navbar-burger burger'} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+          <div id="navbarBasicExample" className={this.state.active ? 'is-active navbar-menu' : 'navbar-menu'} >
+            <div class="navbar-start">
+              <a class="navbar-item is-activated">Home</a>
               <a class="navbar-item">About Me</a>
               <a class="navbar-item">My Projects</a>
               <a class="navbar-item">My Articles</a>

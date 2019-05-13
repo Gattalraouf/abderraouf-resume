@@ -16,9 +16,19 @@
 
 .navbar{
   flex-grow: 1;
-  display: flex;
   align-self: center;
   background-color: transparent !important;
+  align-items: center;
+}
+
+#navbarBasicExample{
+  position: absolute; /* <-- Added */
+  z-index: 99;
+}
+
+
+.navbar-burger{
+  margin-left: 0%;
 }
 
 a.navbar-item{
@@ -26,10 +36,12 @@ a.navbar-item{
   font-size: 1.5vw;
   color: #3f3d56 !important;
 }
-.is-active{
+
+.is-activated{
   opacity: 1 !important;
   text-decoration: underline;
 }
+
 a.navbar-item:hover{
   background-color: transparent;
   opacity: 1;
@@ -147,22 +159,24 @@ a.navbar-item:hover{
   }
 
   .Text{
-    flex-grow: 9;
-    align-self: center;
-    margin-left:0%; 
-    min-width: 85vw;
-    margin-top: 0%;
+    flex-grow: 9 !important;
+    align-self: center; 
+    min-width: 85vw !important;
   }
 
   .Social-Media-Button{
     margin: 0%;
-    margin-left: 0.4em;
-    width: 4vw;
+    margin-left: 0.7em !important;
+    width: 6vw !important;
     margin-bottom: 0.6em;
   }
 
   .is-large{
     font-size: 4vw !important;
+  }
+
+  a.navbar-item{
+    font-size: 3vw !important;
   }
 
 }
@@ -171,22 +185,36 @@ a.navbar-item:hover{
 
 @media (max-width:1024px) {
 
+  .navbar{
+    align-self: flex-start;
+  }
+
+  a.navbar-item{
+    font-size: 2vw;
+    text-align: center;
+  }
+
+  .navbar-menu{
+    background-color: #f2f2f2 !important;
+    width: 100vw;
+  }
+
   #Welcoming{
-    font-size: 2.5vw !important;
+    font-size: 2.5vw ;
   }
   
   #MyName{
-    font-size: 4vw !important;
+    font-size: 4vw;
   }
   
   #MyProfession{
-    font-size: 4vw !important;
+    font-size: 4vw;
   }
 
   .Text{
     flex-grow: 6;
     align-self: center;
-    margin-left:0%; 
+    margin-left:3%; 
     min-width: 57vw;
     margin-top: 0%;
   }
@@ -194,7 +222,7 @@ a.navbar-item:hover{
   .Social-Media-Button{
     margin: 0%;
     margin-left: 0.4em;
-    width: 4vw;
+    width: 5vw;
     margin-bottom: 0.6em;
   }
 
