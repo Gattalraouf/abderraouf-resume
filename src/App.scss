@@ -16,9 +16,9 @@
 
 .navbar{
   flex-grow: 1;
-  align-self: center;
   background-color: transparent !important;
   align-items: center;
+  align-self: center;
 }
 
 #navbarBasicExample{
@@ -47,11 +47,6 @@ a.navbar-item:hover{
   opacity: 1;
   text-decoration: underline;
 }
-
-.navbar-end{
-  align-self: center;
-}
-
 /*-------------The main picture-----------*/
 .App-logo {
   height: 60vmin;
