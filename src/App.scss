@@ -348,3 +348,47 @@ a.navbar-item:hover{
 .Icon{
   padding: 0.5rem;
 }
+
+
+/*---------------------------Phone Mode - About---------------------*/
+@media (max-width:629px) {
+  .background{
+    margin-top: 0%;
+  }
+  
+  .Bio-Zone{
+    flex-direction: column;
+    margin-left: 0%;
+    align-items: flex-start;
+  }
+  
+  .first{
+    font-size: 6vw;
+  }
+  
+  .second{
+    font-size: 6vw;
+  }
+  
+  .sub{
+    font-size:3vw;
+    margin-top: -1.5%;
+  }
+  
+  .Bio{
+    font-size: 2.6vw;
+  }
+  
+  .Bio-Text{
+    margin-top: 3%;
+    width: 80vw;
+    text-align: center;
+    align-self: center;
+  }
+  
+  .My-Image{
+    height: 40vw;
+    margin-top: 7%;
+  }
+  
+}
