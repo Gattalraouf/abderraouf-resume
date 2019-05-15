@@ -9,6 +9,7 @@ import Intern2 from "../res/intern2.svg";
 import StudyIcon from "../res/study-icon.svg";
 import WorkIcon from "../res/portfolio.svg";
 import TalkIcon from "../res/talk.svg";
+import ShipIcon from "../res/ship.svg";
 
 class Experiences extends Component {
 
@@ -39,6 +40,18 @@ class Experiences extends Component {
 
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
+                            date="03/01/2019 - Present"
+                            iconStyle={{ background: '#084C61', color: '#fff' }}
+                            icon={<img className="Icon" alt="" src={TalkIcon} />}
+                        >
+                            <h1 className="vertical-timeline-element-title">Campus Expert</h1>
+                            <h5 className="vertical-timeline-element-subtitle">GitHub</h5>
+                            <p id="Specialization">Specialization: Communities</p>
+                            <img className="Time-Line-Pic" alt="" src={GCE} />
+                        </VerticalTimelineElement>
+
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
                             date="01/08/2018 - Present"
                             iconStyle={{ background: '#084C61', color: '#fff' }}
                             icon={<img className="Icon" alt="" src={TalkIcon} />}
@@ -52,20 +65,8 @@ class Experiences extends Component {
 
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            date="03/01/2019 - Present"
-                            iconStyle={{ background: '#084C61', color: '#fff' }}
-                            icon={<img className="Icon" alt="" src={TalkIcon} />}
-                        >
-                            <h1 className="vertical-timeline-element-title">Campus Expert</h1>
-                            <h5 className="vertical-timeline-element-subtitle">GitHub</h5>
-                            <p id="Specialization">Specialization: Communities</p>
-                            <img className="Time-Line-Pic" alt="" src={GCE} />
-                        </VerticalTimelineElement>
-
-                        <VerticalTimelineElement
-                            className="vertical-timeline-element--work"
                             date="12/08/2018 - 17/09/2018"
-                            iconStyle={{ background: '#32965D', color: '#fff' }}
+                            iconStyle={{ background: '#d61e3c', color: '#fff' }}
                             icon={<img className="Icon" alt="" src={WorkIcon} />}
                         >
                             <h1 className="vertical-timeline-element-title">Intern | Security Engineer</h1>
@@ -78,7 +79,7 @@ class Experiences extends Component {
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
                             date="12/08/2018 - 17/09/2018"
-                            iconStyle={{ background: '#32965D', color: '#fff' }}
+                            iconStyle={{ background: '#d61e3c', color: '#fff' }}
                             icon={<img className="Icon" alt="" src={WorkIcon} />}
                         >
                             <h1 className="vertical-timeline-element-title">Intern | Engineer</h1>
@@ -89,8 +90,10 @@ class Experiences extends Component {
                         </VerticalTimelineElement>
 
                         <VerticalTimelineElement
-                            iconStyle={{ background: '#FFD046', color: '#fff' }}
+                            iconStyle={{ background: '#084C61', color: '#fff' }}
+                            icon={<img className="Icon" alt="" src={ShipIcon} />}
                         />
+
                     </VerticalTimeline>
                 </div>
 
