@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 import CampusExpert from '../res/GCE.svg';
-import GitHub from '../res/github.svg';
-import LinkedIn from '../res/linkedin.svg';
-import Medium from '../res/medium.svg';
-import Behance from '../res/behance.svg';
-import Twitter from '../res/twitter.svg';
-import '../App.css';
+import SocialMedia from './SocialMedia';
 
 class Home extends Component {
 
@@ -38,7 +33,7 @@ class Home extends Component {
         var ReactRotatingText = require('react-rotating-text');
         const MyProfession = ['Software Engineering Student', 'Software Developer', 'GitHub Campus Expert', 'GDG Algiers Co-Organizer'];
         return (
-            <div className="App">
+            <div className="Home">
             
                 <nav class="navbar" role="navigation" aria-label="main navigation">
                     <div class="navbar-brand">
@@ -51,42 +46,29 @@ class Home extends Component {
                     <div id="navbarBasicExample" className={this.state.active ? 'is-active navbar-menu' : 'navbar-menu'} >
                         <div class="navbar-end">
                             <a class="navbar-item is-activated" href="./">Home</a>
-                            <a class="navbar-item" href="about">About Me</a>
-                            <a class="navbar-item" href="experiences">My Experiences</a>
-                            <a class="navbar-item" href="projects">My Projects</a>
-                            <a class="navbar-item" href="articles">My Articles</a>
-                            <a class="navbar-item" href="talks">My Talks</a>
+                            <a class="navbar-item" href="hello#About-Me">About Me</a>
+                            <a class="navbar-item" href="hello#My-Experiences">My Experiences</a>
+                            <a class="navbar-item" href="hello#projects">My Projects</a>
+                            <a class="navbar-item" href="hello#articles">My Articles</a>
+                            <a class="navbar-item" href="hello#talks">My Talks</a>
                         </div>
                     </div>
                 </nav>
 
-                <header className="App-body">
-                    <div className="SocialMedia">
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Gattalraouf">
-                            <img src={GitHub} className="Social-Media-Button" alt="Abderraouf on GitHub" />
-                        </a>
-                        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/GattalRaouf">
-                            <img src={Twitter} className="Social-Media-Button" alt="Abderraouf on Twitter" />
-                        </a>
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/AbderraoufGattal">
-                            <img src={Behance} className="Social-Media-Button" alt="Abderraouf on Behance" />
-                        </a>
-                        <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@Abderraouf">
-                            <img src={Medium} className="Social-Media-Button" alt="Abderraouf on Medium" />
-                        </a>
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/abderraouf-gattal/">
-                            <img src={LinkedIn} className="Social-Media-Button" alt="Abderraouf on LinkedIn" />
-                        </a>
-                    </div>
+                <body className="App-body">
+
+                    <SocialMedia/>
+
                     <div className="Text">
                         <p id="Welcoming">Hello, I am</p>
                         <h1 id="MyName">Abderraouf GATTAL</h1>
                         <h1 id="MyProfession"><ReactRotatingText items={MyProfession} /></h1>
-
                         <button className="button is-outlined is-rounded is-large is-my-dark" onClick={this.handleEvent}>Download My CV</button>
                     </div>
+
                     <img src={CampusExpert} className="App-logo" alt="GitHub Campus Expert" />
-                </header>
+
+                </body>
             </div>
         );
     }
