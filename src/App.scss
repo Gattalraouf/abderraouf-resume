@@ -298,3 +298,53 @@ a.navbar-item:hover{
   height: 25vw;
   margin: auto;
 }
+
+
+/*--------------- Experiences Section -----------------*/
+
+/*Time Line*/
+.vertical-timeline-element-title{
+  color: #3f3d56;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+#Specialization{
+  color: #d61e3c;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Time-Line-Pic{
+  height: 12rem;
+  margin-top: 4%;
+  width: -webkit-fill-available;
+}
+
+.test::before{
+  background: #3f3d56;
+  border-radius: 3px;
+}
+
+.vertical-timeline-element-content{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px 0px;
+
+}
+
+.vertical-timeline-element-icon{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px 0px;
+  border-style: solid;
+  border-width: 5px,;
+}
+
+.vertical-timeline-element-date{
+  left: 140% !important;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date{
+  right: 140% !important;
+  left: auto !important;
+}
+
+.Icon{
+  padding: 0.5rem;
+}
