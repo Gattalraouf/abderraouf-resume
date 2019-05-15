@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4cff6054825c8b7e2bd913663f0604f5",
+    "revision": "f57d7e408166f4ff406903fb4807287f",
     "url": "/abderraouf-resume/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/abderraouf-resume/static/css/2.d497b198.chunk.css"
   },
   {
-    "revision": "4a1d1867d37b7d736db0",
+    "revision": "6ac7ea2b63494539e754",
     "url": "/abderraouf-resume/static/css/main.7df9c59a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/abderraouf-resume/static/js/2.8a813ed2.chunk.js"
   },
   {
-    "revision": "4a1d1867d37b7d736db0",
-    "url": "/abderraouf-resume/static/js/main.5e263631.chunk.js"
+    "revision": "6ac7ea2b63494539e754",
+    "url": "/abderraouf-resume/static/js/main.a867a3f4.chunk.js"
   },
   {
     "revision": "9db0fa26cfc3960accdd",
