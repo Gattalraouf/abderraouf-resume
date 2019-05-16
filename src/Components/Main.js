@@ -9,9 +9,9 @@ class Main extends Component {
     render() {
         return (
             <div>
-                <About/>
+                <About id="About-Me"/>
                 <Experiences/>
-                <Projects/>
+                <Projects id="My-Projects"/>
             </div>
         );
     }

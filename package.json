@@ -13,6 +13,7 @@
     "react-rotating-text": "^1.4.1",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1",
+    "react-ui-cards": "^1.5.0",
     "react-vertical-timeline-component": "^2.3.1"
   },
   "scripts": {

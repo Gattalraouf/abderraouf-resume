@@ -46,9 +46,9 @@ class Home extends Component {
                     <div id="navbarBasicExample" className={this.state.active ? 'is-active navbar-menu' : 'navbar-menu'} >
                         <div class="navbar-end">
                             <a class="navbar-item is-activated" href="./">Home</a>
-                            <a class="navbar-item" href="#/hello">About Me</a>
+                            <a class="navbar-item" href="#/hello#About-Me">About Me</a>
                             <a class="navbar-item" href="hello#My-Experiences">My Experiences</a>
-                            <a class="navbar-item" href="hello#projects">My Projects</a>
+                            <a class="navbar-item" href="#/hello#My-Projects">My Projects</a>
                             <a class="navbar-item" href="hello#articles">My Articles</a>
                             <a class="navbar-item" href="hello#talks">My Talks</a>
                         </div>
