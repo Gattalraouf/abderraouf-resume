@@ -514,3 +514,39 @@ a.navbar-item:hover{
   display: flex;
   margin-top: auto;
 }
+
+
+/*--------------------Footer-------------------*/
+.Footer{
+  background: url(./res/background2.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 8%;
+  padding-bottom: 2%;
+  margin-top: 4%;
+  color: #3f3d56;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-social_media:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.footer-social_media{
+  opacity: 0.5;
+  height: 2vw;
+  margin: 0.5%;
+}
+
+
+
+@media (max-width:629px) {
+ 
+  .footer-social_media{
+    height: 6vw;
+    margin: 1.5%;
+    margin-top: 4%;
+  }
+
+}

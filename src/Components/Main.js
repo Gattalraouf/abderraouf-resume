@@ -4,6 +4,7 @@ import Experiences from "./Experiences";
 import Projects from "./Projects";
 import Articles from './Articles';
 import Talks from './Talks';
+import Footer from './Footer';
 
 class Main extends Component {
 
@@ -16,6 +17,7 @@ class Main extends Component {
                 <Projects id="My-Projects"/>
                 <Articles/>
                 <Talks/>
+                <Footer/>
             </div>
         );
     }

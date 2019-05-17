@@ -3,27 +3,27 @@ import React, { Component } from 'react';
 class Articles extends Component {
 
     Article1 = event => {
-        const url = 'https://github.com/Gattalraouf/abderraouf-resume';
+        const url = 'https://medium.com/@Abderraouf/gdg-algiers-a-story-of-passion-fun-and-addiction-4bfece1c4419';
         window.open(url, '_blank');
     };
 
     Article2 = event => {
-        const url = 'https://github.com/Gattalraouf/abderraouf-resume';
+        const url = 'https://medium.com/@Abderraouf/understand-android-basics-part-1-application-activity-and-lifecycle-b559bb1e40e';
         window.open(url, '_blank');
     };
 
     Article3 = event => {
-        const url = 'https://github.com/Gattalraouf/abderraouf-resume';
+        const url = 'https://medium.com/@Abderraouf/understand-android-basics-part-2-ui-is-all-what-matters-to-the-user-xml-android-6492c434a850';
         window.open(url, '_blank');
     };
 
     Article4 = event => {
-        const url = 'https://github.com/Gattalraouf/abderraouf-resume';
+        const url = 'https://medium.com/@Abderraouf/understand-android-basics-part-3-ui-is-all-what-matters-to-the-user-views-viewgroups-c503017c3cb4';
         window.open(url, '_blank');
     };
 
     Article5 = event => {
-        const url = 'https://github.com/Gattalraouf/abderraouf-resume';
+        const url = 'https://medium.com/@Abderraouf/design-secrets-to-make-your-design-better-for-beginners-139983bfa1df';
         window.open(url, '_blank');
     };
 
