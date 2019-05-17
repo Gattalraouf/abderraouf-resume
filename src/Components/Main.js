@@ -3,6 +3,7 @@ import About from "./About";
 import Experiences from "./Experiences";
 import Projects from "./Projects";
 import Articles from './Articles';
+import Talks from './Talks';
 
 class Main extends Component {
 
@@ -13,7 +14,8 @@ class Main extends Component {
                 <About id="About-Me"/>
                 <Experiences/>
                 <Projects id="My-Projects"/>
-                <Articles id="My-Projects"/>
+                <Articles/>
+                <Talks/>
             </div>
         );
     }
