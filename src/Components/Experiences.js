@@ -16,7 +16,7 @@ class Experiences extends Component {
 
     render() {
         return (
-            <div id="#My-Experiences" className="My-Experiences">
+            <div className="My-Experiences">
                 <div className="Title">
                     <h1 className=" first">My</h1>
                     <h1 className=" second">Experiences.</h1>

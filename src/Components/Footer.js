@@ -11,7 +11,7 @@ class Footer extends Component {
     render() {
         return (
             <div className="Footer">
-                <div class="content has-text-centered">
+                <div className="content has-text-centered">
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/Gattalraouf">
                         <img src={GitHub} className="footer-social_media" alt="Abderraouf on GitHub" />
                     </a>
@@ -29,7 +29,7 @@ class Footer extends Component {
                     </a>
                 </div>
 
-                <div class="content has-text-centered">
+                <div className="content has-text-centered">
                     <p> © Copyrights 2019</p>
                     <p>All rights reserved to Abderraouf GATTAL</p>
                 </div>

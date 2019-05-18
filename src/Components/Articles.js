@@ -34,52 +34,52 @@ class Articles extends Component {
                     <h1 className=" first">My</h1>
                     <h1 className=" second">Articles.</h1>
                 </div>
-                <h2 className="sub">Here’s my story for the history books.</h2>
-                <div class="tile is-ancestor">
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <p class="card-title">GDG Algiers, A story of Passion, Fun and Addiction…</p>
-                            <p class="card-subtitle">The title says it all!!!</p>
+                <h2 className="sub">You can always edit a bad page. You can’t edit a blank page.</h2>
+                <div className="tile is-ancestor">
+                    <div className="tile is-parent">
+                        <article className="tile is-child box">
+                            <p className="card-title">GDG Algiers, A story of Passion, Fun and Addiction…</p>
+                            <p className="card-subtitle">The title says it all!!!</p>
                             <div className="ReadMore-Container">
                                 <button className="button is-text is-rounded read" onClick={this.Article1}>Read More</button>
                             </div>
                         </article>
                     </div>
                 </div>
-                <div class="tile is-ancestor">
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <p class="card-title">Understand Android Basics 1</p>
-                            <p class="card-subtitle">Application, Activity and Lifecycle</p>
+                <div className="tile is-ancestor">
+                    <div className="tile is-parent">
+                        <article className="tile is-child box">
+                            <p className="card-title">Understand Android Basics 1</p>
+                            <p className="card-subtitle">Application, Activity and Lifecycle</p>
                             <div className="ReadMore-Container">
                                 <button className="button is-text is-rounded read" onClick={this.Article2}>Read More</button>
                             </div>
                         </article>
                     </div>
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <p class="card-title">Understand Android Basics 2</p>
-                            <p class="card-subtitle">UI is all what matters to the user (XML and Android)</p>
+                    <div className="tile is-parent">
+                        <article className="tile is-child box">
+                            <p className="card-title">Understand Android Basics 2</p>
+                            <p className="card-subtitle">UI is all what matters to the user (XML and Android)</p>
                             <div className="ReadMore-Container">
                                 <button className="button is-text is-rounded read" onClick={this.Article3}>Read More</button>
                             </div>
                         </article>
                     </div>
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <p class="card-title">Understand Android Basics 3</p>
-                            <p class="card-subtitle">UI is all what matters to the user (Views and ViewGroups)</p>
+                    <div className="tile is-parent">
+                        <article className="tile is-child box">
+                            <p className="card-title">Understand Android Basics 3</p>
+                            <p className="card-subtitle">UI is all what matters to the user (Views and ViewGroups)</p>
                             <div className="ReadMore-Container">
                                 <button className="button is-text is-rounded read" onClick={this.Article4}>Read More</button>
                             </div>
                         </article>
                     </div>
                 </div>
-                <div class="tile is-ancestor">
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <p class="card-title">Design: Secrets to make your Design better</p>
-                            <p class="card-subtitle">Few tricks that may help design beginners! </p>
+                <div className="tile is-ancestor">
+                    <div className="tile is-parent">
+                        <article className="tile is-child box">
+                            <p className="card-title">Design: Secrets to make your Design better</p>
+                            <p className="card-subtitle">Few tricks that may help design beginners! </p>
                             <div className="ReadMore-Container">
                                 <button className="button is-text is-rounded read" onClick={this.Article5}>Read More</button>
                             </div>

@@ -16,7 +16,7 @@ class App extends Component {
               <Home/>
             </div>
           )} />
-          <Route exact={true} path='/Hello' render={() => (
+          <Route exact={true} path='/WhoIam' render={() => (
             <div className="App">
               <Main/>
             </div>

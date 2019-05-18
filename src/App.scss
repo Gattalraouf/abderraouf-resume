@@ -14,43 +14,10 @@
   flex-direction: row;
 }
 
-.navbar{
-  flex-grow: 1;
-  background-color: transparent !important;
-  align-items: center;
-  align-self: center;
+.home-button{
+  margin: 1vw;
 }
 
-#navbarBasicExample{
-  position: absolute;
-  z-index: 99;
-}
-
-.Home-Menu-container {
-  margin-left: 25%;
-}
-
-
-.navbar-burger{
-  margin-left: 0%;
-}
-
-a.navbar-item{
-  opacity: 0.5;
-  font-size: 1.5vw;
-  color: #3f3d56 !important;
-}
-
-.is-activated{
-  opacity: 1 !important;
-  text-decoration: underline;
-}
-
-a.navbar-item:hover{
-  background-color: transparent;
-  opacity: 1;
-  text-decoration: underline;
-}
 /*-------------The main picture-----------*/
 .App-logo {
   height: 60vmin;
@@ -113,6 +80,7 @@ a.navbar-item:hover{
   align-self: flex-start;
   margin-bottom: 3%; 
   margin-left: 1%;
+  margin-top: 5%;
 }
 .Social-Media-Button:hover{
   opacity: 1;
@@ -126,9 +94,7 @@ a.navbar-item:hover{
   margin-bottom: 1.2em;
 }
 
-/*--------------Adding Product Sans font----------*/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:200');
 
 
 /*-------------large button text size-----------*/
@@ -233,10 +199,15 @@ a.navbar-item:hover{
     font-size: 3vw !important;
   }
 
+  .Title{
+    margin-top: -5%;
+  }
+
 }
 
 
 /*-----------------Menu---------------------*/
+
 .Menu-container {
   position: fixed;
   z-index: 2;
@@ -250,10 +221,53 @@ a.navbar-item:hover{
   margin-right: 2%;
 }
 
-@media (max-width: 1087px){
+
+.navbar{
+  flex-grow: 1;
+  background-color: transparent !important;
+  align-items: center;
+  align-self: center;
+}
+
+#navbarBasicExample{
+  position: absolute;
+  z-index: 99;
+}
+
+.navbar-burger{
+  margin-left: 0%;
+}
+
+a.navbar-item{
+  opacity: 0.5;
+  font-size: 1.5vw;
+  color: #3f3d56 !important;
+}
+
+.is-activated{
+  opacity: 1 !important;
+  text-decoration: underline;
+}
+
+a.navbar-item:hover{
+  background-color: transparent;
+  opacity: 1;
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px){
+  .Menu-container{
+    margin-top: 5%;
+  }
   .navbar-menu {
     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1) ;
     background-color: white !important;
+  }
+}
+
+@media (max-width: 627px){
+  .Menu-container{
+    margin-top: 0rem !important;
   }
 }
 
@@ -265,8 +279,9 @@ a.navbar-item:hover{
   z-index: -1;
 }
 
+
 .Title{
-  padding-top: 5%;
+  padding-top: 6%;
   display: flex;
   flex-direction: row;
   margin-left: 6%;
@@ -379,13 +394,14 @@ a.navbar-item:hover{
 /*---------------------------Phone Mode - Main Page---------------------*/
 @media (max-width:629px) {
   .background{
-    margin-top: 15%;
+    margin-top: -2%;
   }
 
-  .Title{
-    padding-top: 18%;
+  .filler{
+    background-color: #f2f2f2;
+    height: 20vw;
   }
-  
+
   .Bio-Zone{
     flex-direction: column;
     margin-left: 0%;
@@ -422,7 +438,6 @@ a.navbar-item:hover{
   }
   
 }
-
 
 /*-------------------Experiences-------------------*/
 .is-ancestor{
@@ -469,6 +484,10 @@ a.navbar-item:hover{
 
 .card-pic{
   align-self: center;
+}
+
+.flipping-card-container {
+  width: -webkit-fill-available;
 }
 
 .My-Projects{

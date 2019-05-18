@@ -8,18 +8,70 @@ import Footer from './Footer';
 import NavMenu from './NavMenu';
 
 class Main extends Component {
+    constructor(props) {
+        super(props);
+        this.onMenuClick = this.onMenuClick.bind(this);
+        this.about = React.createRef();
+        this.experiences = React.createRef();
+        this.projects = React.createRef();
+        this.articles = React.createRef();
+        this.talks = React.createRef();
+    }
+
+    onMenuClick(choice) {
+        if (choice == 1) {
+            window.scrollTo({
+                top: this.about.current.offsetTop,
+                left: 0,
+                behavior: "smooth"
+            });
+        }
+        else if (choice == 2) {
+            window.scrollTo({
+                top: this.experiences.current.offsetTop,
+                left: 0,
+                behavior: "smooth"
+            });
+        }
+        else if (choice == 3) {
+            window.scrollTo({
+                top: this.projects.current.offsetTop,
+                left: 0,
+                behavior: "smooth"
+            });
+        }
+        else if (choice == 4) {
+            window.scrollTo({
+                top: this.articles.current.offsetTop,
+                left: 0,
+                behavior: "smooth"
+            });
+        }
+        else if (choice == 5) {
+            window.scrollTo({
+                top: this.talks.current.offsetTop,
+                left: 0,
+                behavior: "smooth"
+            });
+        }
+    }
 
 
     render() {
         return (
             <div>
-                <NavMenu/>
-                <About id="About-Me"/>
-                <Experiences/>
-                <Projects id="My-Projects"/>
-                <Articles/>
-                <Talks/>
-                <Footer/>
+                <NavMenu onMenuClick={this.onMenuClick} />
+                <div ref={this.about}></div>
+                <About />
+                <div ref={this.experiences}></div>
+                <Experiences />
+                <div ref={this.projects}></div>
+                <Projects />
+                <div ref={this.articles}></div>
+                <Articles />
+                <div ref={this.talks}></div>
+                <Talks />
+                <Footer />
             </div>
         );
     }

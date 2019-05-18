@@ -24,30 +24,30 @@ class Talks extends Component {
                     <h1 className=" first">My</h1>
                     <h1 className=" second">Talks.</h1>
                 </div>
-                <h2 className="sub">Here’s my story for the history books.</h2>
-                <div class="tile is-ancestor">
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <p class="card-title">Understand Android Basics</p>
-                            <p class="card-subtitle">A small talk covering the basics</p>
+                <h2 className="sub">A true dreamer is one who knows how to navigate in the dark.</h2>
+                <div className="tile is-ancestor">
+                    <div className="tile is-parent">
+                        <article className="tile is-child box">
+                            <p className="card-title">Understand Android Basics</p>
+                            <p className="card-subtitle">A small talk covering the basics</p>
                             <div className="ReadMore-Container">
                                 <button className="button is-text is-rounded read" onClick={this.Android}>Check Slides</button>
                             </div>
                         </article>
                     </div>
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <p class="card-title">From an idea to a prototype</p>
-                            <p class="card-subtitle">A small talk covering some basics of UX basics</p>
+                    <div className="tile is-parent">
+                        <article className="tile is-child box">
+                            <p className="card-title">From an idea to a prototype</p>
+                            <p className="card-subtitle">A small talk covering some basics of UX basics</p>
                             <div className="ReadMore-Container">
                                 <button className="button is-text is-rounded read" onClick={this.UX}>Check Slides</button>
                             </div>
                         </article>
                     </div>
-                    <div class="tile is-parent">
-                        <article class="tile is-child box">
-                            <p class="card-title">Git and GitHub</p>
-                            <p class="card-subtitle">A small talk covering the basics (concepts, commands and workflow)</p>
+                    <div className="tile is-parent">
+                        <article className="tile is-child box">
+                            <p className="card-title">Git and GitHub</p>
+                            <p className="card-subtitle">A small talk covering the basics (concepts, commands and workflow)</p>
                             <div className="ReadMore-Container">
                                 <button className="button is-text is-rounded read" onClick={this.Git}>Check Slides</button>
                             </div>

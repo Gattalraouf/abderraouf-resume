@@ -41,9 +41,9 @@ class Projects extends Component {
                     <h1 className=" second">Projects.</h1>
                 </div>
                 <h2 className="sub">Goals are dreams with deadlines.</h2>
-                <div class="tile is-ancestor">
-                    <div class="tile is-parent is-vertical is-7">
-                        <div class="tile is-child">
+                <div className="tile is-ancestor">
+                    <div className="tile is-parent is-vertical is-7">
+                        <div className="tile is-child">
                             <FlippingCard>
                                 <FlippingCardFront>
                                     <div className="front-card">
@@ -51,9 +51,9 @@ class Projects extends Component {
                                     </div>
                                 </FlippingCardFront>
                                 <FlippingCardBack>
-                                    <div class="card-content">
-                                        <p class="card-title">My Personal Resume</p>
-                                        <p class="card-subtitle">A beautiful personal Website</p>
+                                    <div className="card-content">
+                                        <p className="card-title">My Personal Resume</p>
+                                        <p className="card-subtitle">A beautiful personal Website</p>
                                         <p className="taging"> <b>Tags:</b> ReactJs, Development, UI/UX Design</p>
                                         <div>
                                             <button className="btns button is-outlined is-my-dark is-rounded" onClick={this.PersonalWebsiteSourceCode}>Code Source</button>
@@ -63,12 +63,12 @@ class Projects extends Component {
                                 </FlippingCardBack>
                             </FlippingCard>
                         </div>
-                        <div class="tile is-child">
+                        <div className="tile is-child">
                             <FlippingCard>
                                 <FlippingCardBack>
-                                    <div class="card-content">
-                                        <p class="card-title">GIS-App</p>
-                                        <p class="card-subtitle">A desktop and web tool app to create geographical information systems (ArcGis alike)</p>
+                                    <div className="card-content">
+                                        <p className="card-title">GIS-App</p>
+                                        <p className="card-subtitle">A desktop and web tool app to create geographical information systems (ArcGis alike)</p>
                                         <p className="taging"> <b>Tags:</b> ReactJs, Development, UI/UX Design, redux, electron</p>
                                         <div>
                                             <button className="btns button is-outlined is-my-dark is-rounded" onClick={this.GISApp}>Code Source</button>
@@ -83,13 +83,13 @@ class Projects extends Component {
                             </FlippingCard>
                         </div>
                     </div>
-                    <div class="tile is-parent">
-                        <div class="tile is-child">
+                    <div className="tile is-parent">
+                        <div className="tile is-child">
                             <FlippingCard>
                                 <FlippingCardBack>
-                                    <div class="card-content">
-                                        <p class="card-title">My Design Projects</p>
-                                        <p class="card-subtitle">A set of Designs I worked on</p>
+                                    <div className="card-content">
+                                        <p className="card-title">My Design Projects</p>
+                                        <p className="card-subtitle">A set of Designs I worked on</p>
                                         <p className="taging"> <b>Tags:</b> UI/UX Design, Graphic Design</p>
                                         <div>
                                             <button className="btns button is-outlined is-my-dark is-rounded" onClick={this.Behance}>Check Them</button>
