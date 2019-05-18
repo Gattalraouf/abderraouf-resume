@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d17ce64468281a87e4d774ba26d85095",
+    "revision": "a5f4b9581f4794da5366522573c53cdf",
     "url": "/abderraouf-resume/index.html"
   },
   {
-    "revision": "43312080823efde7162d",
+    "revision": "15907fc2454332b2d1af",
     "url": "/abderraouf-resume/static/css/2.d497b198.chunk.css"
   },
   {
-    "revision": "236b2b24f67717d82d69",
-    "url": "/abderraouf-resume/static/css/main.1c4393b2.chunk.css"
+    "revision": "62b1b8126212e4f5886d",
+    "url": "/abderraouf-resume/static/css/main.5454bcc8.chunk.css"
   },
   {
-    "revision": "43312080823efde7162d",
-    "url": "/abderraouf-resume/static/js/2.f365ec31.chunk.js"
+    "revision": "15907fc2454332b2d1af",
+    "url": "/abderraouf-resume/static/js/2.d382a43e.chunk.js"
   },
   {
-    "revision": "236b2b24f67717d82d69",
-    "url": "/abderraouf-resume/static/js/main.10ac12a4.chunk.js"
+    "revision": "62b1b8126212e4f5886d",
+    "url": "/abderraouf-resume/static/js/main.a51931f1.chunk.js"
   },
   {
     "revision": "9db0fa26cfc3960accdd",
@@ -36,8 +36,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/abderraouf-resume/static/media/GDGCOOrganizer.b0a22a04.svg"
   },
   {
+    "revision": "1c525e7ab52f5d69ba98c6242454c97e",
+    "url": "/abderraouf-resume/static/media/Graphic-Design.1c525e7a.svg"
+  },
+  {
+    "revision": "63bc0c0bf5c1520018a80692d77d9984",
+    "url": "/abderraouf-resume/static/media/SIGA_Project.63bc0c0b.png"
+  },
+  {
     "revision": "2a524e9debb43d42252bd9f13efca94d",
     "url": "/abderraouf-resume/static/media/background1.2a524e9d.svg"
+  },
+  {
+    "revision": "b964573fb7ac7ae9278d180ac45f1e37",
+    "url": "/abderraouf-resume/static/media/background2.b964573f.svg"
   },
   {
     "revision": "be8243f095c7fa75e81c62a10d40663c",
@@ -66,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3d63000a52be99cab07f41de4d359101",
     "url": "/abderraouf-resume/static/media/medium.3d63000a.svg"
+  },
+  {
+    "revision": "3dc1ffc4f7050e39fcf2143afba97e96",
+    "url": "/abderraouf-resume/static/media/personalWebsite.3dc1ffc4.png"
   },
   {
     "revision": "332b34cc7bc61a17bdfb54fb14719962",
