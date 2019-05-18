@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/abderraouf-resume/static/css/main.0dc30097.chunk.css",
+    "main.css": "/abderraouf-resume/static/css/main.750a32e6.chunk.css",
     "main.js": "/abderraouf-resume/static/js/main.ea697bea.chunk.js",
     "main.js.map": "/abderraouf-resume/static/js/main.ea697bea.chunk.js.map",
     "runtime~main.js": "/abderraouf-resume/static/js/runtime~main.250fc41d.js",
@@ -9,10 +9,10 @@
     "static/js/2.fd8377ff.chunk.js": "/abderraouf-resume/static/js/2.fd8377ff.chunk.js",
     "static/js/2.fd8377ff.chunk.js.map": "/abderraouf-resume/static/js/2.fd8377ff.chunk.js.map",
     "index.html": "/abderraouf-resume/index.html",
-    "precache-manifest.8236ba36e2fa4cdd3d27fed2d6046b76.js": "/abderraouf-resume/precache-manifest.8236ba36e2fa4cdd3d27fed2d6046b76.js",
+    "precache-manifest.767c3998beec77c802b78d1a8defeb7a.js": "/abderraouf-resume/precache-manifest.767c3998beec77c802b78d1a8defeb7a.js",
     "service-worker.js": "/abderraouf-resume/service-worker.js",
     "static/css/2.d497b198.chunk.css.map": "/abderraouf-resume/static/css/2.d497b198.chunk.css.map",
-    "static/css/main.0dc30097.chunk.css.map": "/abderraouf-resume/static/css/main.0dc30097.chunk.css.map",
+    "static/css/main.750a32e6.chunk.css.map": "/abderraouf-resume/static/css/main.750a32e6.chunk.css.map",
     "static/media/GCE.svg": "/abderraouf-resume/static/media/GCE.608399dc.svg",
     "static/media/GCE1.svg": "/abderraouf-resume/static/media/GCE1.1d68ca58.svg",
     "static/media/GDGCOOrganizer.svg": "/abderraouf-resume/static/media/GDGCOOrganizer.b0a22a04.svg",
