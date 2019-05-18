@@ -22,8 +22,12 @@
 }
 
 #navbarBasicExample{
-  position: absolute; /* <-- Added */
+  position: absolute;
   z-index: 99;
+}
+
+.Home-Menu-container {
+  margin-left: 25%;
 }
 
 
@@ -184,6 +188,10 @@ a.navbar-item:hover{
     align-self: flex-start;
   }
 
+  .Home-Menu-container {
+    margin-left:0%;
+  }
+
   a.navbar-item{
     font-size: 2vw;
     text-align: center;
@@ -228,7 +236,26 @@ a.navbar-item:hover{
 }
 
 
+/*-----------------Menu---------------------*/
+.Menu-container {
+  position: fixed;
+  z-index: 2;
+  width: -webkit-fill-available;
+  border-radius: 0px;
+  padding: 0px;
+}
 
+.navbar-end{
+  align-items: center;
+  margin-right: 2%;
+}
+
+@media (max-width: 1087px){
+  .navbar-menu {
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1) ;
+    background-color: white !important;
+  }
+}
 
 /*----------------About Section---------------------*/
 
@@ -239,7 +266,7 @@ a.navbar-item:hover{
 }
 
 .Title{
-  padding-top: 3%;
+  padding-top: 5%;
   display: flex;
   flex-direction: row;
   margin-left: 6%;
@@ -352,7 +379,11 @@ a.navbar-item:hover{
 /*---------------------------Phone Mode - Main Page---------------------*/
 @media (max-width:629px) {
   .background{
-    margin-top: 0%;
+    margin-top: 15%;
+  }
+
+  .Title{
+    padding-top: 18%;
   }
   
   .Bio-Zone{
