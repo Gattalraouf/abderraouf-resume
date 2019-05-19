@@ -6,6 +6,7 @@ import Articles from './Articles';
 import Talks from './Talks';
 import Footer from './Footer';
 import NavMenu from './NavMenu';
+import Skills from './Skills';
 
 class Main extends Component {
     constructor(props) {
@@ -16,6 +17,7 @@ class Main extends Component {
         this.projects = React.createRef();
         this.articles = React.createRef();
         this.talks = React.createRef();
+        this.skills = React.createRef();
     }
 
     onMenuClick(choice) {
@@ -54,6 +56,14 @@ class Main extends Component {
                 behavior: "smooth"
             });
         }
+        else if (choice == 6) {
+            window.scrollTo({
+                top: this.skills.current.offsetTop,
+                left: 0,
+                behavior: "smooth"
+            });
+        }
+        
     }
 
 
@@ -67,6 +77,8 @@ class Main extends Component {
                 <Experiences />
                 <div ref={this.projects}></div>
                 <Projects />
+                <div ref={this.skills}></div>
+                <Skills />
                 <div ref={this.articles}></div>
                 <Articles />
                 <div ref={this.talks}></div>

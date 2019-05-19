@@ -6,7 +6,6 @@ import GisProject from "../res/SIGA_Project.png";
 import Design from "../res/Graphic-Design.svg";
 
 import background2 from "../res/background2.svg";
-import background1 from "../res/background1.svg";
 
 
 class Projects extends Component {
@@ -105,7 +104,6 @@ class Projects extends Component {
                         </div>
                     </div>
                 </div>
-                <img className="background3" alt="" src={background1} />
             </div>
         );
     }

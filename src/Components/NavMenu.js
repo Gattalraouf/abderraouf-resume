@@ -46,6 +46,7 @@ class NavMenu extends Component {
                             <a className="navbar-item" id="1" onClick={this.GotoItem}>About Me</a>
                             <a className="navbar-item" id="2" onClick={this.GotoItem}>My Experiences</a>
                             <a className="navbar-item" id="3" onClick={this.GotoItem}>My Projects</a>
+                            <a className="navbar-item" id="6" onClick={this.GotoItem}>My Skills</a>
                             <a className="navbar-item" id="4" onClick={this.GotoItem}>My Articles</a>
                             <a className="navbar-item" id="5" onClick={this.GotoItem}>My Talks</a>
                         </div>
