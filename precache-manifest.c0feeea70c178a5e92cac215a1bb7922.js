@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52ec8b804e1e4d3731ee73715ad8a83b",
+    "revision": "de897b61627308bd7753b46ffbfdfb26",
     "url": "/abderraouf-resume/index.html"
   },
   {
-    "revision": "cf9aa9f5b8ae090ac78d",
+    "revision": "383d765a2fc30fd305bd",
     "url": "/abderraouf-resume/static/css/2.d497b198.chunk.css"
   },
   {
-    "revision": "c04e1eb29d4728f77f42",
-    "url": "/abderraouf-resume/static/css/main.750a32e6.chunk.css"
+    "revision": "ea49e84d76c797c29bbc",
+    "url": "/abderraouf-resume/static/css/main.b6128ce3.chunk.css"
   },
   {
-    "revision": "cf9aa9f5b8ae090ac78d",
-    "url": "/abderraouf-resume/static/js/2.fd8377ff.chunk.js"
+    "revision": "383d765a2fc30fd305bd",
+    "url": "/abderraouf-resume/static/js/2.91631539.chunk.js"
   },
   {
-    "revision": "c04e1eb29d4728f77f42",
-    "url": "/abderraouf-resume/static/js/main.ea697bea.chunk.js"
+    "revision": "ea49e84d76c797c29bbc",
+    "url": "/abderraouf-resume/static/js/main.9b5b2bbb.chunk.js"
   },
   {
     "revision": "9db0fa26cfc3960accdd",
@@ -36,12 +36,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/abderraouf-resume/static/media/GDGCOOrganizer.b0a22a04.svg"
   },
   {
+    "revision": "1acf12649c0fc70b4441430701fc1587",
+    "url": "/abderraouf-resume/static/media/Git.1acf1264.svg"
+  },
+  {
     "revision": "1c525e7ab52f5d69ba98c6242454c97e",
     "url": "/abderraouf-resume/static/media/Graphic-Design.1c525e7a.svg"
   },
   {
+    "revision": "8670d30bb8fe5afcbbb63f845a6582de",
+    "url": "/abderraouf-resume/static/media/Illustrator.8670d30b.svg"
+  },
+  {
+    "revision": "05a3e30fdf60ebe9d00cf4725d44bd42",
+    "url": "/abderraouf-resume/static/media/React.05a3e30f.svg"
+  },
+  {
     "revision": "63bc0c0bf5c1520018a80692d77d9984",
     "url": "/abderraouf-resume/static/media/SIGA_Project.63bc0c0b.png"
+  },
+  {
+    "revision": "c8b8558111b3ff57b2203be634596b20",
+    "url": "/abderraouf-resume/static/media/XD.c8b85581.svg"
+  },
+  {
+    "revision": "bb9a18ec2c445cbb03e4a4ac536f1757",
+    "url": "/abderraouf-resume/static/media/android.bb9a18ec.svg"
   },
   {
     "revision": "2a524e9debb43d42252bd9f13efca94d",
@@ -56,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/abderraouf-resume/static/media/behance.be8243f0.svg"
   },
   {
+    "revision": "70ffe1c0841b5ac5e39f6581f21e13b1",
+    "url": "/abderraouf-resume/static/media/database.70ffe1c0.svg"
+  },
+  {
     "revision": "932d33b076f9b44ea599a42b129def73",
     "url": "/abderraouf-resume/static/media/github.932d33b0.svg"
   },
@@ -66,6 +90,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "330502f05b89aef3bc77fc894cbe2e24",
     "url": "/abderraouf-resume/static/media/intern2.330502f0.svg"
+  },
+  {
+    "revision": "a732a6e5bc69653a55d6dd81ab8d2d5e",
+    "url": "/abderraouf-resume/static/media/java.a732a6e5.svg"
+  },
+  {
+    "revision": "99fbbf55b7bfe0d3be16ed5663b0f9eb",
+    "url": "/abderraouf-resume/static/media/kotlin.99fbbf55.svg"
   },
   {
     "revision": "99c50a4722b2120feb52d69787499ba7",
