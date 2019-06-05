@@ -44,26 +44,25 @@ class Main extends Component {
         }
         else if (choice == 4) {
             window.scrollTo({
-                top: this.articles.current.offsetTop,
+                top: this.skills.current.offsetTop,
                 left: 0,
                 behavior: "smooth"
             });
         }
         else if (choice == 5) {
             window.scrollTo({
-                top: this.talks.current.offsetTop,
+                top: this.articles.current.offsetTop,
                 left: 0,
                 behavior: "smooth"
             });
         }
         else if (choice == 6) {
             window.scrollTo({
-                top: this.skills.current.offsetTop,
+                top: this.talks.current.offsetTop,
                 left: 0,
                 behavior: "smooth"
             });
         }
-        
     }
 
 

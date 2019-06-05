@@ -14,7 +14,7 @@ class Home extends Component {
     }
 
     handleEvent = event => {
-        const url = 'https://drive.google.com/file/d/17QbkScF4RExOwqH9HcHT_m_FpcS4F5am/view?usp=sharing';
+        const url = 'https://drive.google.com/open?id=1xEXqYzQjVhOdTdGmqGTYso6M_4a4rC_u';
         window.open(url, '_blank');
     };
 

@@ -27,6 +27,11 @@ class Articles extends Component {
         window.open(url, '_blank');
     };
 
+    Git_Universe = event => {
+        const url = 'https://medium.com/@Abderraouf/git-an-entire-universe-to-explore-120430d63f84';
+        window.open(url, '_blank');
+    };
+
     render() {
         return (
             <div className="My-Articles">
@@ -82,6 +87,17 @@ class Articles extends Component {
                             <p className="card-subtitle">Few tricks that may help design beginners! </p>
                             <div className="ReadMore-Container">
                                 <button className="button is-text is-rounded read" onClick={this.Article5}>Read More</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div className="tile is-ancestor">
+                    <div className="tile is-parent">
+                        <article className="tile is-child box">
+                            <p className="card-title">Git, an entire universe to explore</p>
+                            <p className="card-subtitle">Grow your wits sharper, and explore it all !!!</p>
+                            <div className="ReadMore-Container">
+                                <button className="button is-text is-rounded read" onClick={this.Git_Universe}>Read More</button>
                             </div>
                         </article>
                     </div>

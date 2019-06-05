@@ -17,11 +17,12 @@ class About extends Component {
                 <h2 className="sub">Here’s my story for the history books.</h2>
                 <div className="Bio-Zone">
                     <div className="Bio-Text">
-                        <p className="Bio">Abderraouf GATTAL, a Software Engineering Student, a GDG Algiers Co-Organizer,
-                        GitHub Campus Expert and an Android Developer not to mention his passion toward  UX/UI and graphic
-                        Design.</p>
-                        <p className="Bio">Focusing all his effort on the impact he can leave on this world someday.</p>
-                        <p className="Bio">He hopes to make something that impresses his Mum and raises to his family's expectations.</p>
+                        <p className="Bio">
+                        Software Engineering Student, GDG Algiers Co-Organizer, GitHub Campus Expert and Software Developer not to 
+                        mention my passion toward UX/UI and graphic Design.</p>
+                        <p className="Bio">Focusing all my effort on the impact I can leave on this world someday and making software
+                        development accessible for everyone.</p>
+                        <p className="Bio">Hoping to make something that impresses my Mum and raises to my family's expectations.</p>
                     </div>
                     <img className="My-Image" alt="Abderraouf GATTAL" src={Me}></img>
                 </div>

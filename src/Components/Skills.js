@@ -68,7 +68,7 @@ class Skills extends Component {
                     <div className="tile is-parent">
                         <article className="tile is-child has-text-centered skill-element">
                             <img src={XD} alt="UX Design with XD" />
-                            <h3>UX</h3>
+                            <h3>XD</h3>
                             <p>Prototyping, UI/UX Desing</p>
                         </article>
                     </div>

@@ -46,7 +46,7 @@ class Experiences extends Component {
                         >
                             <h1 className="vertical-timeline-element-title">Campus Expert</h1>
                             <h5 className="vertical-timeline-element-subtitle">GitHub</h5>
-                            <p id="Specialization">Specialization: Communities</p>
+                            <p id="Specialization">Specialization: Communities, Leadership, Public Speaking, Mentoring</p>
                             <img className="Time-Line-Pic" alt="" src={GCE} />
                         </VerticalTimelineElement>
 
@@ -58,7 +58,7 @@ class Experiences extends Component {
                         >
                             <h1 className="vertical-timeline-element-title">Co-Organizer</h1>
                             <h5 className="vertical-timeline-element-subtitle">GDG Algiers</h5>
-                            <p id="Specialization">Specialization: Communities</p>
+                            <p id="Specialization">Specialization: Communities, Leadership, Public Speaking, Mentoring</p>
                             <p>Algiers, Algeria</p>
                             <img className="Time-Line-Pic" alt="" src={CoOrganizer} />
                         </VerticalTimelineElement>
