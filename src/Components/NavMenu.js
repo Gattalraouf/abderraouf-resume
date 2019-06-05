@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class NavMenu extends Component {
 
@@ -22,11 +23,6 @@ class NavMenu extends Component {
         this.setState({ active: !currentState });
     }
 
-    GotoItem = e => {
-        const el = e.target;
-        this.props.onMenuClick(el.id);
-    };
-
 
     render() {
         return (
@@ -43,12 +39,72 @@ class NavMenu extends Component {
                     <div className={this.state.active ? 'is-active navbar-menu' : 'navbar-menu'} >
                         <div className="navbar-start">
                             <a className="navbar-item" href="./">Home</a>
-                            <a className="navbar-item" id="1" onClick={this.GotoItem}>About Me</a>
-                            <a className="navbar-item" id="2" onClick={this.GotoItem}>My Experiences</a>
-                            <a className="navbar-item" id="3" onClick={this.GotoItem}>My Projects</a>
-                            <a className="navbar-item" id="4" onClick={this.GotoItem}>My Skills</a>
-                            <a className="navbar-item" id="5" onClick={this.GotoItem}>My Articles</a>
-                            <a className="navbar-item" id="6" onClick={this.GotoItem}>My Talks</a>
+                            <Link
+                                className="navbar-item"
+                                activeClass="is-activated"
+                                to="section1"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                            >
+                                About Me
+                            </Link>
+                            <Link
+                                className="navbar-item"
+                                activeClass="is-activated"
+                                to="section2"
+                                spy={true}
+                                smooth={true}
+                                offset={-30}
+                                duration={500}
+                            >
+                                My Experiences
+                            </Link>
+                            <Link
+                                className="navbar-item"
+                                activeClass="is-activated"
+                                to="section3"
+                                spy={true}
+                                smooth={true}
+                                offset={0}
+                                duration={500}
+                            >
+                                My Projects
+                            </Link>
+                            <Link
+                                className="navbar-item"
+                                activeClass="is-activated"
+                                to="section4"
+                                spy={true}
+                                smooth={true}
+                                offset={20}
+                                duration={500}
+                            >
+                                My Skills
+                            </Link>
+                            <Link
+                                className="navbar-item"
+                                activeClass="is-activated"
+                                to="section5"
+                                spy={true}
+                                smooth={true}
+                                offset={20}
+                                duration={500}
+                            >
+                                My Articles
+                            </Link>
+                            <Link
+                                className="navbar-item"
+                                activeClass="is-activated"
+                                to="section6"
+                                spy={true}
+                                smooth={true}
+                                offset={35}
+                                duration={500}
+                            >
+                                My Talks
+                            </Link>
                         </div>
                         <div className="navbar-end has-text-centered">
                             <a className="button is-my-dark is-rounded is-outlined " onClick={this.handleEvent}>
