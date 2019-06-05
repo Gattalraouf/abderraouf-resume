@@ -35,7 +35,8 @@ class Home extends Component {
         return (
             <div className="Home">
                 <div className="App-body">
-
+                    <div className="backG"></div>
+                    <div className="background-phone"></div>
                     <SocialMedia />
 
                     <div className="Text">

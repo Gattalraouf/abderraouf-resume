@@ -2,10 +2,16 @@
 
 /*-----------------Main Screen------------*/
 .Home {
-  background-color: #f2f2f2;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+.backG{
+  background-color: #f2f2f2;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .App-body{
@@ -24,6 +30,8 @@
   flex-grow: 3;
   align-self: center;
   margin-right: 8%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 /*------------- The Title Text------------*/
@@ -111,6 +119,18 @@
     display: none;
   }
 
+  .background-phone{
+    z-index: -1;
+    position: absolute;
+    height:100%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url("./res/GCE.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.25;
+  }
   #Welcoming{
     font-size: 4vw !important;
   }
