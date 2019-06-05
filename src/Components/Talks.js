@@ -37,7 +37,7 @@ export default function Talks({ id }) {
                 <div className="tile is-parent">
                     <article className="tile is-child box">
                         <p className="card-title">From an idea to a prototype</p>
-                        <p className="card-subtitle">A small talk covering some basics of UX basics</p>
+                        <p className="card-subtitle">A small talk covering some UX basics</p>
                         <div className="ReadMore-Container">
                             <button className="button is-text is-rounded read" onClick={UX}>Check Slides</button>
                         </div>
