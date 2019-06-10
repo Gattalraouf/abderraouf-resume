@@ -1,21 +1,24 @@
 import React, { Component } from 'react';
 
 
-function Git(event) {
-    const url = 'https://gattalraouf.github.io/Git-GitHub-Talk/';
-    window.open(url, '_blank');
-};
 
-function Android(event) {
-    const url = 'https://www.slideshare.net/fa_gattal/gdg-school-android-workshop';
-    window.open(url, '_blank');
-};
-
-function UX(event) {
-    const url = 'https://www.slideshare.net/fa_gattal/from-an-idea-to-a-prototype';
-    window.open(url, '_blank');
 };
 export default function Talks({ id }) {
+
+    function Git() {
+        const url = 'https://gattalraouf.github.io/Git-GitHub-Talk/';
+        window.open(url, '_blank');
+    };
+    
+    function Android() {
+        const url = 'https://www.slideshare.net/fa_gattal/gdg-school-android-workshop';
+        window.open(url, '_blank');
+    };
+    
+    function UX() {
+        const url = 'https://www.slideshare.net/fa_gattal/from-an-idea-to-a-prototype';
+        window.open(url, '_blank');
+    }
 
     return (
         <div id={id}>

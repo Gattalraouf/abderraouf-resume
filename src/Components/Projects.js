@@ -7,27 +7,29 @@ import Design from "../res/Graphic-Design.svg";
 
 import background2 from "../res/background2.svg";
 
-function PersonalWebsiteSourceCode(event){
-    const url = 'https://github.com/Gattalraouf/abderraouf-resume';
-    window.open(url, '_blank');
-};
-
-function PersonalWebsiteDemo(event) {
-    const url = 'https://gattalraouf.github.io/abderraouf-resume/#/';
-    window.open(url, '_blank');
-};
-
-function Behance (event) {
-    const url = 'https://www.behance.net/AbderraoufGattal';
-    window.open(url, '_blank');
-};
-
-function GISApp(event){
-    const url = 'https://github.com/chenineazeddine/GIS-Desktop-web-app';
-    window.open(url, '_blank');
-};
 
 export default function Projects({ id }) {
+
+    function PersonalWebsiteSourceCode(){
+        const url = 'https://github.com/Gattalraouf/abderraouf-resume';
+        window.open(url, '_blank');
+    };
+    
+    function PersonalWebsiteDemo() {
+        const url = 'https://gattalraouf.github.io/abderraouf-resume/#/';
+        window.open(url, '_blank');
+    };
+    
+    function Behance () {
+        const url = 'https://www.behance.net/AbderraoufGattal';
+        window.open(url, '_blank');
+    };
+    
+    function GISApp(){
+        const url = 'https://github.com/chenineazeddine/GIS-Desktop-web-app';
+        window.open(url, '_blank');
+    };
+    
 
     return (
         <div className="My-Projects" id={id}>

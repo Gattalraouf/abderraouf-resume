@@ -1,36 +1,37 @@
 import React, { Component } from 'react';
 
-function Article1(event){
-    const url = 'https://medium.com/@Abderraouf/gdg-algiers-a-story-of-passion-fun-and-addiction-4bfece1c4419';
-    window.open(url, '_blank');
-};
-
-function Article2 (event){
-    const url = 'https://medium.com/@Abderraouf/understand-android-basics-part-1-application-activity-and-lifecycle-b559bb1e40e';
-    window.open(url, '_blank');
-};
-
-function Article3 (event){
-    const url = 'https://medium.com/@Abderraouf/understand-android-basics-part-2-ui-is-all-what-matters-to-the-user-xml-android-6492c434a850';
-    window.open(url, '_blank');
-};
-
-function Article4 (event) {
-    const url = 'https://medium.com/@Abderraouf/understand-android-basics-part-3-ui-is-all-what-matters-to-the-user-views-viewgroups-c503017c3cb4';
-    window.open(url, '_blank');
-};
-
-function Article5 (event){
-    const url = 'https://medium.com/@Abderraouf/design-secrets-to-make-your-design-better-for-beginners-139983bfa1df';
-    window.open(url, '_blank');
-};
-
-function Git_Universe(event){
-    const url = 'https://medium.com/@Abderraouf/git-an-entire-universe-to-explore-120430d63f84';
-    window.open(url, '_blank');
-};
 
 export default function Articles({ id }) {
+
+    function Article1(){
+        const url = 'https://medium.com/@Abderraouf/gdg-algiers-a-story-of-passion-fun-and-addiction-4bfece1c4419';
+        window.open(url, '_blank');
+    };
+    
+    function Article2 (){
+        const url = 'https://medium.com/@Abderraouf/understand-android-basics-part-1-application-activity-and-lifecycle-b559bb1e40e';
+        window.open(url, '_blank');
+    };
+    
+    function Article3 (){
+        const url = 'https://medium.com/@Abderraouf/understand-android-basics-part-2-ui-is-all-what-matters-to-the-user-xml-android-6492c434a850';
+        window.open(url, '_blank');
+    };
+    
+    function Article4 () {
+        const url = 'https://medium.com/@Abderraouf/understand-android-basics-part-3-ui-is-all-what-matters-to-the-user-views-viewgroups-c503017c3cb4';
+        window.open(url, '_blank');
+    };
+    
+    function Article5 (){
+        const url = 'https://medium.com/@Abderraouf/design-secrets-to-make-your-design-better-for-beginners-139983bfa1df';
+        window.open(url, '_blank');
+    };
+    
+    function Git_Universe(){
+        const url = 'https://medium.com/@Abderraouf/git-an-entire-universe-to-explore-120430d63f84';
+        window.open(url, '_blank');
+    };
 
     return (
         <div className="My-Articles" id={id}>
