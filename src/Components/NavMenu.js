@@ -13,7 +13,7 @@ class NavMenu extends Component {
     }
 
     handleEvent = event => {
-        const url = 'https://drive.google.com/open?id=1xEXqYzQjVhOdTdGmqGTYso6M_4a4rC_u';
+        const url = 'https://drive.google.com/open?id=1-leuX-dgm4Gmw85h-7rtq324FX-qBnOI';
         window.open(url, '_blank');
     };
 
