@@ -4,6 +4,7 @@ import { FlippingCard, FlippingCardBack, FlippingCardFront } from 'react-ui-card
 import PersonalWebsite from "../res/personalWebsite.png";
 import GisProject from "../res/SIGA_Project.png";
 import Design from "../res/Graphic-Design.svg";
+import Sayara from "../res/sayaradz.png";
 
 import background2 from "../res/background2.svg";
 
@@ -29,6 +30,11 @@ export default function Projects({ id }) {
         const url = 'https://github.com/chenineazeddine/GIS-Desktop-web-app';
         window.open(url, '_blank');
     };
+
+    function SayaraCode(){
+        const url = 'https://github.com/sayaradz/sayaradz_android';
+        window.open(url, '_blank');
+    };
     
 
     return (
@@ -40,7 +46,7 @@ export default function Projects({ id }) {
             </div>
             <h2 className="sub">Goals are dreams with deadlines.</h2>
             <div className="tile is-ancestor">
-                <div className="tile is-parent is-vertical is-7">
+                <div className="tile is-parent is-vertical is-6">
                     <div className="tile is-child">
                         <FlippingCard>
                             <FlippingCardFront>
@@ -80,8 +86,9 @@ export default function Projects({ id }) {
                             </FlippingCardFront>
                         </FlippingCard>
                     </div>
+                    
                 </div>
-                <div className="tile is-parent">
+                <div className="tile is-parent is-vertical">
                     <div className="tile is-child">
                         <FlippingCard>
                             <FlippingCardBack>
@@ -101,7 +108,28 @@ export default function Projects({ id }) {
                             </FlippingCardFront>
                         </FlippingCard>
                     </div>
+                    <div className="tile is-child">
+                        <FlippingCard>
+                            <FlippingCardBack>
+                                <div className="card-content">
+                                    <p className="card-title">Sayara DZ</p>
+                                    <p className="card-subtitle">A mobile App that covers the Selling and buying of both new and used cars.</p>
+                                    <p className="taging"> <b>Tags:</b> UI/UX Design, Android, E-commerce</p>
+                                    <div>
+                                        <button className="btns button is-outlined is-my-dark is-rounded" onClick={SayaraCode}>Code</button>
+                              </div>
+                                </div>
+                            </FlippingCardBack>
+                            <FlippingCardFront>
+                                <div className="front-card">
+                                    <img className="card-pic" src={Sayara} alt="" />
+                                </div>
+                            </FlippingCardFront>
+                        </FlippingCard>
+                    </div>
                 </div>
+            
+        
             </div>
         </div>
     );
